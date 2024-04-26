@@ -1,0 +1,52 @@
+{
+  "seller": [
+    {
+      "id": "ada4",
+      "name": "Edson Carlos de Meira",
+      "password": "teste",
+      "email": "edsonanga@hotmail.com"
+    },
+    {
+      "id": "95af",
+      "name": "Edson Carlos de Meira",
+      "password": "teste",
+      "email": "edsonanga@hotmail.com"
+    },
+    {
+      "id": "d6fe",
+      "name": "Edson Carlos de Meira",
+      "password": "teste",
+      "email": "edsonanga@hotmail.com"
+    },
+    {
+      "id": "f846",
+      "name": "Edson Carlos de Meira",
+      "password": "teste",
+      "email": "edsonanga@hotmail.com"
+    },
+    {
+      "id": "47d6",
+      "name": "Edson Carlos de Meira",
+      "password": "teste",
+      "email": "edsonanga@hotmail.com"
+    },
+    {
+      "id": "1952",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "d25d",
+      "name": "Maria Joaquina",
+      "password": "123456",
+      "email": "maria@hotmail.com"
+    },
+    {
+      "id": "3a1a",
+      "name": "Valentina Helena",
+      "password": "123456",
+      "email": "tina@gmail.com"
+    }
+  ]
+}
