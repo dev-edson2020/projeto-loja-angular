@@ -2,93 +2,29 @@
   "seller": [
     {
       "id": "ada4",
-      "name": "Edson Carlos de Meira",
-      "password": "teste",
-      "email": "edsonanga@hotmail.com"
-    },
-    {
-      "id": "95af",
-      "name": "Edson Carlos de Meira",
-      "password": "teste",
-      "email": "edsonanga@hotmail.com"
-    },
-    {
-      "id": "d6fe",
-      "name": "Edson Carlos de Meira",
-      "password": "teste",
-      "email": "edsonanga@hotmail.com"
-    },
-    {
-      "id": "f846",
-      "name": "Edson Carlos de Meira",
-      "password": "teste",
-      "email": "edsonanga@hotmail.com"
-    },
-    {
-      "id": "47d6",
-      "name": "Edson Carlos de Meira",
-      "password": "teste",
-      "email": "edsonanga@hotmail.com"
-    },
-    {
-      "id": "1952",
-      "name": "",
-      "password": "",
-      "email": ""
-    },
-    {
-      "id": "d25d",
-      "name": "Maria Joaquina",
-      "password": "123456",
-      "email": "maria@hotmail.com"
-    },
-    {
-      "id": "3a1a",
-      "name": "Valentina Helena",
-      "password": "123456",
-      "email": "tina@gmail.com"
-    },
-    {
-      "id": "282d",
-      "name": "Romana",
-      "password": "romana@mail.com",
-      "email": "123"
-    },
-    {
-      "id": "e8eb",
-      "name": "teste3",
-      "password": "teste3",
-      "email": "teste3@MAIL.COM"
-    },
-    {
-      "id": "dc73",
-      "name": "teste3",
-      "password": "teste3",
-      "email": "teste3@mail.com"
-    },
-    {
-      "id": "64af",
-      "name": "teste3",
+      "name": "teste",
       "password": "teste",
       "email": "teste"
+    }
+  ],
+  "products": [
+    {
+      "id": "7101",
+      "name": "Telefone",
+      "price": "555",
+      "category": "Mobile",
+      "color": "Azul",
+      "image": "null",
+      "description": "Testando"
     },
     {
-      "id": "d3bb",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "dcf0",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "bf0f",
-      "name": "",
-      "email": "",
-      "password": ""
+      "id": "d580",
+      "name": "Teste",
+      "price": "555",
+      "category": "Teste",
+      "color": "Azul",
+      "image": "https://via.placeholder.com/400",
+      "description": "Testando"
     }
   ]
 }

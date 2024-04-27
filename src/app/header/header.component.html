@@ -14,8 +14,8 @@
       <li><a routerLink="#">Carrinho (0)</a></li>
     </ul>
     <ul *ngSwitchCase="'seller'">
-      <li><a routerLink="/seller-auth">Lista de Produtos</a></li>
-      <li><a routerLink="">Adicionar Produtos</a></li>
+      <li><a routerLink="seller-add-product">Adicionar Produtos</a></li>
+      <li><a routerLink="/seller-home">Lista de Produtos</a></li>
       <li><a (click)="logout()">Sair</a></li>
       <li><a routerLink="#"> {{ sellerName | titlecase }} </a></li>
     </ul>
