@@ -47,5 +47,9 @@ margin-right: 5px;
     border: 1px solid teal;
     height: 40px;
     border-left: 0px;
+}
 
+h1 a {
+    color: green;
+    text-decoration: none;
 }
