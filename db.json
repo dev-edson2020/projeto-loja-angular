@@ -53,6 +53,18 @@
       "name": "Romana",
       "password": "romana@mail.com",
       "email": "123"
+    },
+    {
+      "id": "e8eb",
+      "name": "teste3",
+      "password": "teste3",
+      "email": "teste3@MAIL.COM"
+    },
+    {
+      "id": "dc73",
+      "name": "teste3",
+      "password": "teste3",
+      "email": "teste3@mail.com"
     }
   ]
 }

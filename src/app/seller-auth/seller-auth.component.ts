@@ -14,7 +14,9 @@ export class SellerAuthComponent implements OnInit {
     private router: Router,
   ) { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void{
+    // this.seller.reloadSeller();
+  }
 
   signUp(data: SignUp): void {
     this.seller.userSignUp(data)
