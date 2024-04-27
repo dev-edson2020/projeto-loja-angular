@@ -25,6 +25,24 @@
       "color": "Azul",
       "image": "https://via.placeholder.com/400",
       "description": "Testando"
+    },
+    {
+      "id": "2c23",
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "be70",
+      "name": "teste",
+      "price": "30",
+      "color": "azul",
+      "category": "teste",
+      "description": "teste",
+      "image": "teste"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
   <div class="sign-up">
     <h1 class="text">CADASTRO DE PRODUTOS</h1>
-
+    <p class="message-p">{{addProductMessage}}</p>
     <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
       <input class="form-input" type="text" ngModel name="name" placeholder="Nome" />
       <input class="form-input" type="text" ngModel name="price" placeholder="Preço" />
@@ -13,5 +13,5 @@
       <button class="form-button">Cadastrar</button>
     </form>
   </div>
- 
+
 </div>
