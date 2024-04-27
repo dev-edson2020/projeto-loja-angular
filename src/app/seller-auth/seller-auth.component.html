@@ -11,9 +11,10 @@
   </div>
 
   <div *ngIf="showLogin" class="login">
-    <h1>Login</h1>
+    <h1>LOGIN DE VENDEDORES</h1>
+    <p class="error-p">{{authError}}</p>
     <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="comom-form">
-        <input class="form-input" type="text" ngModel name="email" placeholder="Digite seu email" />
+      <input class="form-input" type="text" ngModel name="email" placeholder="Digite seu email" />
       <input class="form-input" type="password" ngModel name="password" placeholder="Digite sua senha" />
       <button class="form-button">Login</button>
       <a class="auth-toggle-link" (click)="openSignUp()">AINDA NÃO É CADASTRADO? - CLIQUE AQUI PARA CADASTRAR!</a>
