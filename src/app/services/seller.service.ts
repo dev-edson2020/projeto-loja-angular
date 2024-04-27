@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { SignUp } from '../data-types';
+import { Login, SignUp } from '../data-types';
 import { BehaviorSubject } from 'rxjs';
 import { Router } from '@angular/router';
 
@@ -19,12 +19,27 @@ export class SellerService {
         localStorage.setItem('seller', JSON.stringify(result.body));
         this.router.navigate(['seller-home']);
       });
-    
+
   }
-  reloadSeller(){
+  reloadSeller() {
     if (localStorage.getItem('seller')) {
       this.isSellerLoggedIn.next(true);
       this.router.navigate(['seller-home']);
     }
+  }
+
+  userLogin(data: Login) {
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, { observe: 'response' })
+      .subscribe((result: any) => {
+        console.log(result);
+        if (result && result.body && result.body.length === 1) {
+          console.log('USUÁRIO LOGADO');
+          
+          localStorage.setItem('seller', JSON.stringify(result.body));
+          this.router.navigate(['seller-home']);
+        } else{
+          console.log('FALHA AO FAZER LOGIN');
+        }
+      });
   }
 }

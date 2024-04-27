@@ -13,7 +13,7 @@
     margin: auto;
     flex-direction: column;
     width: 300px;
-    
+
 }
 
 .form-button {
@@ -29,4 +29,38 @@
     padding-left: 10px;
     border: 1px solid teal;
     color: teal;
+}
+
+.error-p {
+    color: red;
+}
+
+.message-p {
+    color: green;
+    text-align: center;
+}
+
+.carolcel-caption {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.caroucel-control-next-icon,
+.carolcel-control-prev-icon {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.invalid-input {
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.max-width {
+    width: 100%;
 }
