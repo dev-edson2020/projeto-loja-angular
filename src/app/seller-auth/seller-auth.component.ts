@@ -9,17 +9,20 @@ import { SignUp } from '../data-types';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent implements OnInit {
+  showLogin = false;
 
-  constructor(private seller: SellerService,
-    private router: Router,
-  ) { }
+  constructor(private seller: SellerService) { }
 
-  ngOnInit(): void{
+  ngOnInit(): void {
     // this.seller.reloadSeller();
   }
 
   signUp(data: SignUp): void {
     this.seller.userSignUp(data)
+  }
+
+  openLogin() {
+    this.showLogin = true;
   }
 
 }
