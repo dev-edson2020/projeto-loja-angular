@@ -9,40 +9,40 @@
   ],
   "products": [
     {
-      "id": "7101",
-      "name": "Telefone",
+      "name": "Teste atualizando produto",
       "price": "555",
-      "category": "Mobile",
       "color": "Azul",
-      "image": "null",
-      "description": "Testando"
-    },
-    {
-      "id": "d580",
-      "name": "Teste",
-      "price": "555",
       "category": "Teste",
-      "color": "Azul",
+      "description": "Testando",
       "image": "https://via.placeholder.com/400",
-      "description": "Testando"
+      "id": "d580"
     },
     {
-      "id": "2c23",
-      "name": "",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": ""
+      "id": "6a06",
+      "name": "teste3",
+      "price": "teste3",
+      "color": "teste3",
+      "category": "teste3",
+      "description": "teste3",
+      "image": "teste3"
     },
     {
-      "id": "be70",
-      "name": "teste",
-      "price": "30",
-      "color": "azul",
-      "category": "teste",
-      "description": "teste",
-      "image": "teste"
+      "id": "bdec",
+      "name": "teste3",
+      "price": "teste3",
+      "color": "teste3",
+      "category": "teste3",
+      "description": "teste3",
+      "image": "teste3"
+    },
+    {
+      "id": "8d53",
+      "name": "teste3",
+      "price": "teste3",
+      "color": "teste3",
+      "category": "teste3",
+      "description": "teste3",
+      "image": "teste3"
     }
   ]
 }
