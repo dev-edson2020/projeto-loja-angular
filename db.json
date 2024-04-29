@@ -14,62 +14,53 @@
       "color": "Azul",
       "category": "Teste",
       "description": "Testando",
-      "image": "https://via.placeholder.com/400",
+      "image": "https://m.media-amazon.com/images/I/51Vx3vZWxoL._AC_SL1000_.jpg",
       "id": "d580"
     },
     {
-      "id": "6a06",
       "name": "teste3",
       "price": "teste3",
       "color": "teste3",
       "category": "teste3",
       "description": "teste3",
-      "image": "teste3"
+      "image": "https://m.media-amazon.com/images/I/51fJtGBrnQL._AC_SL1000_.jpg",
+      "id": "6a06"
     },
     {
-      "id": "bdec",
       "name": "teste3",
       "price": "teste3",
       "color": "teste3",
       "category": "teste3",
       "description": "teste3",
-      "image": "teste3"
+      "image": "https://cdn.awsli.com.br/800x800/818/818709/produto/233113520/81es-yf5-1l-_ac_sx679_-4zda8uncou.jpg",
+      "id": "bdec"
     },
     {
-      "id": "8d53",
       "name": "teste3",
       "price": "teste3",
       "color": "teste3",
       "category": "teste3",
       "description": "teste3",
-      "image": "teste3"
+      "image": "https://imgs.casasbahia.com.br/55064141/1g.jpg",
+      "id": "8d53"
     },
     {
-      "id": "68d4",
       "name": "teste3",
       "price": "teste3",
       "color": "teste3",
       "category": "teste3",
       "description": "bbjkjkjkh",
-      "image": "teste"
+      "image": "https://images-submarino.b2w.io/spacey/suba/2023/06/14/5881867050_1GG-a0e1d26326c0.webp",
+      "id": "68d4"
     },
     {
-      "id": "1ce2",
       "name": "teste3",
       "price": "teste3",
       "color": "teste3",
       "category": "teste3",
       "description": "bbjkjkjkh",
-      "image": "teste"
-    },
-    {
-      "id": "bccc",
-      "name": "",
-      "price": "",
-      "color": "",
-      "category": "",
-      "description": "",
-      "image": ""
+      "image": "https://promart.vteximg.com.br/arquivos/ids/7544413-1000-1000/image-0b6c442615ac4fd7bff8bbd60a3d943d.jpg?v=638335002070500000",
+      "id": "1ce2"
     }
   ]
 }
