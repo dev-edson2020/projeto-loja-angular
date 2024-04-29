@@ -61,6 +61,15 @@
       "category": "teste3",
       "description": "bbjkjkjkh",
       "image": "teste"
+    },
+    {
+      "id": "bccc",
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "description": "",
+      "image": ""
     }
   ]
 }

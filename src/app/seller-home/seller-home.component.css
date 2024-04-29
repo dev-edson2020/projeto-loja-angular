@@ -2,6 +2,7 @@ table {
     text-align: left;
     color: green;
     border-collapse: collapse;
+    font-family: sans-serif;
 }
 
 table td,
