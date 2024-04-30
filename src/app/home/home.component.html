@@ -1,23 +1,24 @@
 <div id="mainSlider" class="carousel slide" data-ride="carousel" *ngIf="popularProducts">
   <div class="carousel-inner">
     <div *ngFor="let item of popularProducts; let isFirst = first" class="carousel-item" [class.active]="isFirst">
-      <img class="d-block w-100" [src]="item.image" alt="Slide">
+      <img class="d-block w-100 product-img" [src]="item.image" alt="Slide">
       <div class="carousel-caption d-none d-md-block">
-        <h3>{{ item.name }}</h3>
-        <p>{{ item.description }}</p>
+        <h3 class="carousel-caption">{{ item.name }}</h3>
+        <p class="carousel-caption">{{ item.description }}</p>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+  <div class="carousel-caption">
+  <a class="carousel-control-prev carousel-caption" href="#mainSlider" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="sr-only carousel-caption">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+  <a class="carousel-control-next carousel-caption" href="#mainSlider" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only carousel-caption">Next</span>
   </a>
 </div>
-
+</div>
 
 
 
