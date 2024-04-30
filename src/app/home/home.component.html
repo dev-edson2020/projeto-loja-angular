@@ -3,46 +3,49 @@
     <div *ngFor="let item of popularProducts; let isFirst = first" class="carousel-item" [class.active]="isFirst">
       <img class="d-block w-100 product-img" [src]="item.image" alt="Slide">
       <div class="carousel-caption d-none d-md-block">
-        <h3 class="carousel-caption">{{ item.name }}</h3>
+        <h1 class="carousel-caption product-list-wrapper">{{ item.name }}</h1>
         <p class="carousel-caption">{{ item.description }}</p>
       </div>
     </div>
   </div>
   <div class="carousel-caption">
-  <a class="carousel-control-prev carousel-caption" href="#mainSlider" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only carousel-caption">Previous</span>
-  </a>
-  <a class="carousel-control-next carousel-caption" href="#mainSlider" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only carousel-caption">Next</span>
-  </a>
+    <a class="carousel-control-prev carousel-caption" href="#mainSlider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only carousel-caption">Previous</span>
+    </a>
+    <a class="carousel-control-next carousel-caption" href="#mainSlider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only carousel-caption">Next</span>
+    </a>
+  </div>
 </div>
-</div>
 
-
-
-<!-- <div class="container-fluid">
-  <div id="mainSlider" class="carousel-slide" data-ride="carousel" *ngIf="popularProducts">
-    <ol class="carousel-indicators" *ngFor="let item of popularProducts">
-      <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-      <li data-target="#mainSlider" data-slide-to="1"></li>
-      <li data-target="#mainSlider" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item-active">
-        <img src="{{item.image}}" alt="Projeto Loja Angular" class="d-block w-100">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>{{item.description}}</h2>
+<div class="product-list-wrapper">
+  <h1>Produtos da Moda</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="product-item">
+        <img src="https://imgs.casasbahia.com.br/55064141/1g.jpg" alt="">
+        <div class="product-details">
+          <h6 class="name-head">Novo modelo de celular</h6>
+          <h6 class="product-price">Preço: R$ 1200,00</h6>
+          <h6>Cor: preto</h6> <!-- Movido para dentro de product-details -->
+        </div>
+        <div class="product-footer">
+          <a href="#"> + Detalhes do Produto</a>
+          <a href="#"><i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho</a>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 
-<!-- 
-<ngb-carousel *ngIf="popularProducts">
+
+
+
+
+<!-- <ngb-carousel *ngIf="popularProducts">
   <ng-template *ngFor="let item of popularProducts" ngbSlide>
     <div class="picsum-img-wrapper">
       <img class="product-img" src="{{item.image}}" alt="Random first slide">
@@ -52,4 +55,27 @@
       <p>{{item.description}}</p>
     </div>
   </ng-template>
-</ngb-carousel> -->
+</ngb-carousel>
+
+<div class="product-list-wrapper">
+  <h1>Produtos da Moda</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="product-item">
+        <img src="https://imgs.casasbahia.com.br/55064141/1g.jpg" alt="">
+
+        <div class="product-details">
+          <h6 class="name-head">Novo modelo de celular</h6>
+          <h6 class="product-price">Preço: 1200,00</h6>
+        </div>
+        <div class="product-color">
+          <h6>Cor preto</h6>
+        </div>
+      </div>
+      <div class="product-footer">
+        <a href="#"> + Detalhes do Produto</a>
+        <a href="#"> Adicionar ao Carrinho </a>
+      </div>
+    </div>
+  </div>
+</div> -->
