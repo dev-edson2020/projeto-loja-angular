@@ -1,20 +1,55 @@
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
-  *ngIf="popularProducts && popularProducts.length > 0">
+<div id="mainSlider" class="carousel slide" data-ride="carousel" *ngIf="popularProducts">
   <div class="carousel-inner">
-    <ng-container *ngFor="let item of popularProducts; let i = index">
-      <div class="carousel-item" [class.active]="i === 0">
-        <div class="picsum-img-wrapper">
-          <img [src]="item.image" class="d-block w-100" [alt]="'Slide ' + (i + 1)" />
+    <div *ngFor="let item of popularProducts; let isFirst = first" class="carousel-item" [class.active]="isFirst">
+      <img class="d-block w-100" [src]="item.image" alt="Slide">
+      <div class="carousel-caption d-none d-md-block carolcel-caption">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+<!-- <div class="container-fluid">
+  <div id="mainSlider" class="carousel-slide" data-ride="carousel" *ngIf="popularProducts">
+    <ol class="carousel-indicators" *ngFor="let item of popularProducts">
+      <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+      <li data-target="#mainSlider" data-slide-to="1"></li>
+      <li data-target="#mainSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item-active">
+        <img src="{{item.image}}" alt="Projeto Loja Angular" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>{{item.description}}</h2>
         </div>
       </div>
-    </ng-container>
+    </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+</div> -->
+
+
+<!-- 
+<ngb-carousel *ngIf="popularProducts">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img class="product-img" src="{{item.image}}" alt="Random first slide">
+    </div>
+    <div class="caroucel-caption">
+      <h3>{{item.name}}</h3>
+      <p>{{item.description}}</p>
+    </div>
+  </ng-template>
+</ngb-carousel> -->
