@@ -1,6 +1,6 @@
 .search-item {
     margin: 25px;
-    width: 800px;
+    width: 600px;
     border-top: 1px solid rgb(10, 14, 248);
     padding: 10px;
 }
@@ -8,7 +8,6 @@
 .search-item img {
     object-fit: contain;
     width: 100%;
-    /* border-top: 1px solid black; */
     height: 150px;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .search-item p {
-    margin: 5px !important;
+    margin: 5px;
 }
 
 .search-item span {
