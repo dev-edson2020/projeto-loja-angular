@@ -3,21 +3,37 @@
     width: 600px;
     border-top: 1px solid rgb(10, 14, 248);
     padding: 10px;
+    display: flex;
 }
 
-.search-item img {
-    object-fit: contain;
+.image-container {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.image-container img {
     width: 100%;
-    height: 150px;
+    height: auto;
 }
 
-.search-item h6 {
-    font-size: 24px;
-    color: green;
+.text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
-.search-item p {
-    margin: 5px;
+.text-container .card-body {
+    text-align: left;
+    margin-top: 0;
+}
+
+/* Ajustes nas margens para aproximar o texto da imagem */
+.text-container h5,
+.text-container p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: large;
 }
 
 .search-item span {
