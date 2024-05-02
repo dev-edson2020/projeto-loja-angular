@@ -23,22 +23,25 @@
 <div class="product-list-wrapper">
   <h1>Produtos da Moda</h1>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
       <div class="product-item">
-        <img src="https://imgs.casasbahia.com.br/55064141/1g.jpg" alt="">
+        <img class="product-image" src="{{item.image}}" alt="Novo modelo de celular">
         <div class="product-details">
-          <h6 class="name-head">Novo modelo de celular</h6>
-          <h6 class="product-price">Preço: R$ 1200,00</h6>
-          <h6>Cor: preto</h6> <!-- Movido para dentro de product-details -->
+          <h3 class="product-name">{{item.name | uppercase}}</h3>
+          <p class="product-price">Preço: R$ {{item.price}}</p>
+          <p class="product-color">Cor: {{item.color}}</p>
         </div>
         <div class="product-footer">
-          <a href="#"> + Detalhes do Produto</a>
-          <a href="#"><i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho</a>
+          <a href="#" class="product-link">+ Detalhes do Produto</a>
+          <a href="#" class="product-link"><i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho</a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+
 
 
 

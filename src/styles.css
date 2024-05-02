@@ -3,7 +3,7 @@
 }
 
 .container {
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 5%;
 }
 
@@ -46,15 +46,17 @@
     text-align: center;
 }
 
-.carolcel-caption {
+.caroucel-caption {
     background-color: black;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .caroucel-control-next-icon,
-.carolcel-control-prev-icon {
+.caroucel-control-prev-icon {
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
 }
 
 .invalid-input {

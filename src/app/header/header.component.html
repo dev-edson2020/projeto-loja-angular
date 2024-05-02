@@ -1,9 +1,16 @@
 <nav class="nav">
-  <h1><a routerLink="/"><div class="text"></div> Loja Angular</a></h1>
+  <h1><a routerLink="/">
+      <div class="text">Loja Angular</div>
+    </a></h1>
 
   <div *ngIf="menuType === 'default'" class="nav-search">
-    <input class="text" placeholder="Pesquisar Produtos">
-    <button>Pesquisar</button>
+    <input class="text" #searchInput (keyup)="searchProducts($event)"(blur)="hideSearch()"  placeholder="Pesquisar Produtos">
+    <button (click)="submitSearch(searchInput.value)" class="search-button">Pesquisar</button>
+    <ul class="suggested-search" *ngIf="searchResults">
+      <li *ngFor="let item of searchResults">
+        <a>{{item.name}}</a>
+      </li>
+    </ul>
   </div>
 
   <div [ngSwitch]="menuType">
@@ -19,6 +26,5 @@
       <li><a (click)="logout()">Sair</a></li>
       <li><a routerLink="#"> {{ sellerName | titlecase }} </a></li>
     </ul>
-
   </div>
 </nav>
