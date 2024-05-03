@@ -4,6 +4,7 @@
     color: rgb(13, 0, 128);
     border-collapse: collapse;
     font-family: sans-serif;
+    margin-left: 10px;
 }
 
 .nav {
@@ -46,7 +47,7 @@ nav li a {
     flex: 1;
     color: teal;
     border: 1px solid teal;
-    height: 35px;
+    height: 40px;
     border-right: 0px;
 }
 
