@@ -17,7 +17,7 @@
 
 .product-item {
     margin-bottom: 20px;
-    border: 1px solid rgb(88, 70, 70);
+    border: 1px solid rgb(39, 3, 3);
     margin-right: 25px;
 }
 
@@ -98,4 +98,29 @@
   .product-link:hover {
     color: #666;
   }
+
+  .carousel-item img {
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.carousel-caption {
+    text-align: center;
+    margin: 5px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.568) !important;
+    border-radius: 15px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
   

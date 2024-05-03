@@ -47,7 +47,7 @@
 }
 
 .caroucel-caption {
-    background-color: black;
+    background-color: black !important;
     border-radius: 15px;
 }
 
