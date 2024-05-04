@@ -1,7 +1,7 @@
 .nav,
 .text {
     text-align: left;
-    color: rgb(13, 0, 128);
+    color: darkblue;
     border-collapse: collapse;
     font-family: sans-serif;
     margin-left: 10px;
@@ -33,7 +33,13 @@
 nav li a {
     text-decoration: none;
     color: teal;
+    transition: color 0.3s; /* Transição suave da cor durante 0.3 segundos */
 }
+
+nav li a:hover {
+    color: lightseagreen; /* Altera a cor ao passar o mouse por cima */
+}
+
 
 .nav .nav-search {
     margin-top: 5px;
@@ -41,6 +47,7 @@ nav li a {
     display: flex;
     margin-left: 5px;
     margin-right: 5px;
+    margin: 10px;
 }
 
 .nav .nav-search input {
@@ -69,7 +76,7 @@ h1 a {
 }
 
 .search-button {
-    background-color: #007bff;
+    background-color: #082747;
     color: white !important;
     border: none;
     padding: 8px 16px;
@@ -79,7 +86,7 @@ h1 a {
 }
 
 .search-button:hover {
-    background-color: #082747;
+    background-color: darkblue;
 }
 
 .suggested-search {

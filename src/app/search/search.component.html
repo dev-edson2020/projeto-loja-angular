@@ -1,14 +1,15 @@
-<div class="card">
-    <div class="search-item">
+<div class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="search-item" *ngFor="let item of searchResult">
         <div class="image-container">
-            <img src="https://imgs.casasbahia.com.br/55064141/1g.jpg" class="card-img img-thumbnail" alt="Imagem do produto">
+            <img src="{{item.image}}" alt="Imagem do produto">
         </div>
         <div class="text-container">
             <div class="card-body">
-                <h5 class="card-title">Nome do Produto</h5>
-                <p class="card-text">Preço: R$5000</p>
-                <p class="card-text"><small class="text-muted">Cor: Green | Categoria: Mobile</small></p>
-                <p class="card-text">Produto encontrado</p>
+                <h5 class="card-title"> {{item.name}} </h5>
+                <p class="card-text">Preço: {{item.price}} </p>
+                <p class="card-text">Categoria: {{item.category}} </p>
+                <p class="card-text"><small class="text-muted">Cor: {{item.color}} </small></p>
+                <p class="card-text"> {{item.description}} </p>
             </div>
         </div>
     </div>

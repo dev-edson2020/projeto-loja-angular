@@ -1,7 +1,7 @@
 .search-item {
     margin: 25px;
     width: 600px;
-    border-top: 1px solid rgb(10, 14, 248);
+    border-top: 1px solid darkblue;
     padding: 10px;
     display: flex;
 }
