@@ -3,8 +3,10 @@
     text-align: left;
     color: darkblue;
     border-collapse: collapse;
+          font-family: Arial, sans-serif;
     font-family: sans-serif;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .nav {
@@ -54,7 +56,7 @@ nav li a:hover {
     flex: 1;
     color: teal;
     border: 1px solid teal;
-    height: 40px;
+    height: 34px;
     border-right: 0px;
 }
 
