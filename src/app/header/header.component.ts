@@ -45,6 +45,7 @@ export class HeaderComponent implements OnInit {
           result.length = 5;
         }
         this.searchResults = result;
+        console.log(this.searchResults);
       })
     }
   }
@@ -54,7 +55,7 @@ export class HeaderComponent implements OnInit {
   }
 
   submitSearch(val: string) {
-this.route.navigate([`search/${val}`]);
+    this.route.navigate([`search/${val}`]);
   }
 
 }

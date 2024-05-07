@@ -2,7 +2,7 @@
   <div class="search-item" *ngFor="let item of searchResult">
     <div class="image-container">
       <a routerLink="/details/{{item.id}}"></a>
-      <img src="https://images-submarino.b2w.io/spacey/suba/2023/06/14/5881867050_1GG-a0e1d26326c0.webp"
+      <img src="{{item.image}}"
         alt="Imagem do produto">
     </div>
     <div class="text-container">

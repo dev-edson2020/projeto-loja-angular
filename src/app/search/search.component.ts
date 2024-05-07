@@ -14,7 +14,7 @@ export class SearchComponent implements OnInit {
   constructor(private activeRoute: ActivatedRoute, private product: ProductService) { }
 
   ngOnInit(): void {
-    const query = this.activeRoute.snapshot.paramMap.get('query');
+    const query = this.activeRoute.snapshot.paramMap.get(`query`);
     if (query) {
        this.product.searchProducts(query).subscribe(
            (result) => {
