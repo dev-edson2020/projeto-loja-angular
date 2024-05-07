@@ -114,4 +114,9 @@ h1 a {
 
 .text {
     font-size: larger;
+    font-family: "Arial", sans-serif;
+    color: darkblue; /* Cor do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    line-height: 1.5; /* Altura da linha */
 }
