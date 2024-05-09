@@ -23,7 +23,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item" *ngFor="let item of popularProducts; let i = index" [class.active]="i === 0">
-          <img [src]="item.image" class="d-block w-100" alt="Slide {{i}}">
+          <a routerLink="/details/{{item.id}}"><img [src]="item.image" class="d-block w-100" alt="Slide {{i}}"></a>
           <div class="carousel-caption d-none d-md-block">
             <h5>{{item.name}}</h5>
             <p>{{item.description}}</p>
@@ -55,7 +55,7 @@
             <p class="product-color">Cor: {{item.color}}</p>
           </div>
           <div class="product-footer">
-            <a href="#" class="product-link">+ Detalhes do Produto</a>
+            <a routerLink="/details/{{item.id}}" class="product-link">+ Detalhes do Produto</a>
             <a href="#" class="product-link"><i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho</a>
           </div>
         </div>
@@ -71,6 +71,7 @@
       currentSlide.classList.remove('active');
       nextSlide.classList.add('active');
     }, 5000); // Altere o valor 5000 (milissegundos) para ajustar a velocidade da mudança de slide
+
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
