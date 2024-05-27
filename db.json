@@ -188,5 +188,19 @@
       "description": "Cadastro para teste do projeto",
       "image": "https://promart.vteximg.com.br/arquivos/ids/7544413-1000-1000/image-0b6c442615ac4fd7bff8bbd60a3d943d.jpg?v=638335002070500000"
     }
+  ],
+  "users": [
+    {
+      "id": "ada4",
+      "name": "teste",
+      "password": "teste",
+      "email": "teste"
+    },
+    {
+      "id": "9a15",
+      "name": "ed",
+      "email": "ed@gmail.com",
+      "password": "123"
+    }
   ]
 }

@@ -20,6 +20,15 @@
       <li><a routerLink="/user-auth">Login</a></li>
       <li><a routerLink="#">Carrinho (0)</a></li>
     </ul>
+
+    <ul *ngSwitchCase="'user'">
+      <li><a routerLink="/seller-auth">Vendedores</a></li>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/user-auth">{{userName | titlecase}}</a></li>
+      <li><a style="cursor: pointer;" (click)="userLogout()">Sair</a></li>
+      <li><a routerLink="#">Carrinho (0)</a></li>
+    </ul>
+
     <ul *ngSwitchCase="'seller'">
       <li><a routerLink="seller-add-product">Adicionar Produtos</a></li>
       <li><a routerLink="/seller-home">Lista de Produtos</a></li>
